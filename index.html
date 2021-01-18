@@ -5,29 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="api.js"></script>
 
-    <title>Exercicio 001</title>
+    <title>Clima tempo</title>
 </head>
-<body">
+<body onload="getLocation()">
 
     <header> 
         <h1>Clima Tempo</h1>
     </header>
 
     <section>
-        <div>
-            <h1 id="#cidade"></h1>
-    
-
-        </div>
+        <div><img id="foto" src="" alt=""></div>
+        <div id="cidade"></div>
+        <div id="tempMin"></div>
+        <div id="tempMax"></div>
+        <div id="tempo"></div>
     </section>
+    
 
     <footer>
       <p>&copy Gabriel Baltazar</p>
     </footer>
-
-    <!--<script src="location.js"></script>--> 
-    <script src="api.js"></script>
-    
+     
 </body>
 </html>

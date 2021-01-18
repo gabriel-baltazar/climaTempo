@@ -21,7 +21,19 @@ section{
 
 }
 
+div{
+    color: black;
+    text-align: center;
+    
+}
+
 footer{
     text-align: center;
 
+}
+
+img{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
